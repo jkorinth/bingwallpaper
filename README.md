@@ -7,7 +7,7 @@ location on the command line (e.g., to pass to `feh`).
 This script is available on pypi.org. Simply use
 ```sh
 pip install bingwallpaper
-```.
+```
 
 ## Running
 The script is called `bingwallpaper`; when run without options,
