@@ -1,6 +1,6 @@
 [tool.poetry]
-name = "bingwallpaper"
-version = "0.1.1"
+name = "bingwallpaperpy"
+version = "0.1.2"
 description = "Download script for Bing daily wallpapers."
 authors = ["Jens Korinth <jkorinth@gmx.net>"]
 license = "GPL-v3"
@@ -13,7 +13,7 @@ black = "^23.3.0"
 pillow = "^9.4.0"
 
 [tool.poetry.scripts]
-bingwallpaper = "bingwallpaper.bingwallpaper:download"
+bingwallpaper = "bingwallpaperpy.bingwallpaper:download"
 
 [build-system]
 requires = ["poetry-core"]
