@@ -22,6 +22,7 @@ def download():
     if resp.ok:
         xml = ET.fromstring(resp.content)
         img_url = xml.find("./image/url").text
+        print(BASE_URL + img_url)
         resp = requests.get(BASE_URL + img_url)
         if resp.ok:
             img = Image.open(BytesIO(resp.content))
